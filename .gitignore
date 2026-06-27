@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+
+# Models and large files
+src/models/*.pt
+src/models/*.pth
+src/models/*.pkl
+
+# Data
+data/cards/
+data/decks/
+
+# Logs
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Submission archive
+submission.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
